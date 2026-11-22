@@ -18,6 +18,14 @@ Do changes in the tone of MPC minutes line up with the market move on decision d
 
 **Sensitivity to one meeting.** I refit the one-year OIS regression 71 times, omitting one meeting at a time. Only omitting 19 March 2026 reversed the estimated slope, from +0.27 to −0.19 basis points per score point. The daily data give little reason to trade a change in the phrase count on its own.
 
+### What happened on 19 March 2026?
+
+The MPC voted unanimously to hold Bank Rate at 3.75%. Its minutes discussed the risk that higher energy prices would feed into wages and prices. The tone score rose 19.2 points from February. One-year SONIA OIS rose 37.4 bp from the previous close, from 3.86% to 4.23%.
+
+Both series moved sharply in the same direction, giving this observation enough weight to reverse the slope when omitted. Daily closes include news outside the announcement. To isolate the contribution of the language, the next test would use intraday rates around the release and account for the decision investors had priced beforehand.
+
+[Bank of England minutes](https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026) · [Meeting-level data](data/processed/events.csv)
+
 ## Method
 
 1. **Data (`src/fetch.py`)**
