@@ -1,0 +1,104 @@
+phrase,direction,category
+tighter monetary policy,1,tightening
+tightening of monetary policy,1,tightening
+tightening in monetary policy,1,tightening
+monetary policy tightening,1,tightening
+further tightening,1,tightening
+tighten monetary policy,1,tightening
+increase in bank rate,1,tightening
+increases in bank rate,1,tightening
+rise in bank rate,1,tightening
+rises in bank rate,1,tightening
+higher bank rate,1,tightening
+raise bank rate,1,tightening
+raising bank rate,1,tightening
+further increase*,1,tightening
+remain restrictive,1,tightening
+sufficiently restrictive,1,tightening
+restrictive for sufficiently long,1,tightening
+act forcefully,1,tightening
+forceful*,1,tightening
+withdrawal of monetary stimulus,1,tightening
+persist*,1,inflation persistence
+second-round effect*,1,inflation persistence
+second round effect*,1,inflation persistence
+knock-on effect*,1,inflation persistence
+inflationary pressure*,1,inflation persistence
+domestic inflationary,1,inflation persistence
+price pressure*,1,inflation persistence
+cost pressure*,1,inflation persistence
+wage pressure*,1,inflation persistence
+pay pressure*,1,inflation persistence
+strong wage growth,1,inflation persistence
+robust wage growth,1,inflation persistence
+elevated wage growth,1,inflation persistence
+tight labour market,1,inflation persistence
+tightness in the labour market,1,inflation persistence
+labour market tightness,1,inflation persistence
+excess demand,1,inflation persistence
+capacity pressure*,1,inflation persistence
+de-anchor*,1,inflation persistence
+above target,1,inflation persistence
+above the 2% target,1,inflation persistence
+elevated inflation,1,inflation persistence
+high inflation,1,inflation persistence
+rising inflation,1,inflation persistence
+upside risk*,1,upside risk
+skewed to the upside,1,upside risk
+upside surprise*,1,upside risk
+stronger than expected,1,upside risk
+higher than expected,1,upside risk
+overshoot*,1,upside risk
+strong demand,1,upside risk
+strong growth,1,upside risk
+resilien*,1,upside risk
+strengthen*,1,upside risk
+robust,1,upside risk
+loosen*,-1,easing
+looser monetary policy,-1,easing
+monetary easing,-1,easing
+easing of monetary policy,-1,easing
+policy easing,-1,easing
+reduction in bank rate,-1,easing
+reductions in bank rate,-1,easing
+cut in bank rate,-1,easing
+cuts in bank rate,-1,easing
+lower bank rate,-1,easing
+reduce bank rate,-1,easing
+reducing bank rate,-1,easing
+further reduction*,-1,easing
+less restrictive,-1,easing
+withdrawal of policy restraint,-1,easing
+withdraw policy restraint,-1,easing
+removing policy restraint,-1,easing
+gradual and careful approach,-1,easing
+stimulus,-1,easing
+accommodative,-1,easing
+support the economy,-1,easing
+easing,-1,easing
+eased,-1,easing
+spare capacity,-1,slack
+slack,-1,slack
+excess supply,-1,slack
+rising unemployment,-1,slack
+higher unemployment,-1,slack
+unemployment rose,-1,slack
+unemployment has risen,-1,slack
+weak*,-1,slack
+subdued,-1,slack
+soft*,-1,slack
+contraction,-1,slack
+recession,-1,slack
+headwind*,-1,slack
+weigh on,-1,slack
+weighing on,-1,slack
+weighed on,-1,slack
+downside risk*,-1,downside risk
+skewed to the downside,-1,downside risk
+weaker than expected,-1,downside risk
+lower than expected,-1,downside risk
+disinflation*,-1,downside risk
+below target,-1,downside risk
+below the 2% target,-1,downside risk
+undershoot*,-1,downside risk
+deflation*,-1,downside risk

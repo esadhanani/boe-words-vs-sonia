@@ -1,0 +1,74 @@
+key,meeting_end,announce_date,decision,decision_bp,rate_after,majority,n_dissent,n_dissent_parsed,vote_check_ok,n_hike,n_hold,n_cut,hawk_dissent,dove_dissent,net_hawk_dissent,vote_tilt_bp,dissent_detail,text_source,n_words_scored,decision_sentence,url_key,rate_check_ok
+2018-02,2018-02-07,2018-02-08,hold,0.0,0.5,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,4942,voted unanimously to maintain Bank Rate at 0.50%,2018-02,True
+2018-03,2018-03-21,2018-03-22,hold,0.0,0.5,7,2,2,True,2,7,0,2,0,2,5.56,2x+25bp,pdf,4586,voted by a majority of 7-2 to maintain Bank Rate at 0.50%,2018-03,True
+2018-05,2018-05-09,2018-05-10,hold,0.0,0.5,7,2,2,True,2,7,0,2,0,2,5.56,2x+25bp,pdf,4672,voted by a majority of 7-2 to maintain Bank Rate at 0.5%,2018-05,True
+2018-06,2018-06-20,2018-06-21,hold,0.0,0.5,6,3,3,True,3,6,0,3,0,3,8.33,3x+25bp,pdf,6047,voted by a majority of 6-3 to maintain Bank Rate at 0.5%,2018-06,True
+2018-08,2018-08-01,2018-08-02,hike,25.0,0.75,9,0,0,True,9,0,0,0,0,0,0.0,,pdf,4192,"voted by 9-0 to increase Bank Rate by 0.25 percentage points, to 0.75%",2018-08,True
+2018-09,2018-09-12,2018-09-13,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,4481,voted unanimously to maintain Bank Rate at 0.75%,2018-09,True
+2018-11,2018-10-31,2018-11-01,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,4220,voted unanimously to maintain Bank Rate at 0.75%,2018-11,True
+2018-12,2018-12-19,2018-12-20,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5143,voted unanimously to maintain Bank Rate at 0.75%,2018-12,True
+2019-02,2019-02-06,2019-02-07,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5559,voted unanimously to maintain Bank Rate at 0.75%,2019-02,True
+2019-03,2019-03-20,2019-03-21,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5058,voted unanimously to maintain Bank Rate at 0.75%,2019-03,True
+2019-05,2019-05-01,2019-05-02,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5306,voted unanimously to maintain Bank Rate at 0.75%,2019-05,True
+2019-06,2019-06-19,2019-06-20,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5320,voted unanimously to maintain Bank Rate at 0.75%,2019-06,True
+2019-08,2019-07-31,2019-08-01,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5410,voted unanimously to maintain Bank Rate at 0.75%,2019-08,True
+2019-09,2019-09-18,2019-09-19,hold,0.0,0.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5915,voted unanimously to maintain Bank Rate at 0.75%,2019-09,True
+2019-11,2019-11-06,2019-11-07,hold,0.0,0.75,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,5419,voted by a majority of 7-2 to maintain Bank Rate at 0.75%,2019-11,True
+2019-12,2019-12-18,2019-12-19,hold,0.0,0.75,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,5273,voted by a majority of 7-2 to maintain Bank Rate at 0.75%,2019-12,True
+2020-01,2020-01-29,2020-01-30,hold,0.0,0.75,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,5619,voted by a majority of 7-2 to maintain Bank Rate at 0.75%,2020-01,True
+2020-03-special-10,2020-03-10,2020-03-11,cut,-50.0,0.25,9,0,0,True,0,0,9,0,0,0,0.0,,pdf,3869,Bank Rate should be reduced by 50 basis points to 0.25%,2020-03-special-10,True
+2020-03-special-19,2020-03-19,2020-03-19,cut,-15.0,0.1,9,0,0,True,0,0,9,0,0,0,0.0,,html,475,"voted unanimously to increase the Bank of England's holdings of UK government bonds and sterling non-financial investment-grade corporate bonds by £200 billion to a total of £645 billion, financed by the issuance of central bank reserves, and to reduce Bank Rate by 15 basis points to 0.1%",2020-03-special-19,True
+2020-03,2020-03-25,2020-03-26,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,6879,voted unanimously to maintain Bank Rate at 0.1%,2020-03,True
+2020-05,2020-05-06,2020-05-07,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,8520,voted unanimously to maintain Bank Rate at 0.1%,2020-05,True
+2020-06,2020-06-17,2020-06-18,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,8092,voted unanimously to maintain Bank Rate at 0.1%,2020-06,True
+2020-08,2020-08-04,2020-08-06,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7360,voted unanimously to maintain Bank Rate at 0.1%,2020-08,True
+2020-09,2020-09-16,2020-09-17,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,5673,voted unanimously to maintain Bank Rate at 0.1%,2020-09,True
+2020-11,2020-11-04,2020-11-05,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7238,voted unanimously to maintain Bank Rate at 0.1%,2020-11,True
+2020-12,2020-12-16,2020-12-17,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7581,voted unanimously to maintain Bank Rate at 0.1%,2020-12,True
+2021-02,2021-02-03,2021-02-04,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7725,voted unanimously to maintain Bank Rate at 0.1%,2021-02,True
+2021-03,2021-03-17,2021-03-18,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,6850,voted unanimously to maintain Bank Rate at 0.1%,2021-03,True
+2021-05,2021-05-05,2021-05-06,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7238,voted unanimously to maintain Bank Rate at 0.1%,2021-05,True
+2021-06,2021-06-22,2021-06-24,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7368,voted unanimously to maintain Bank Rate at 0.1%,2021-06,True
+2021-08,2021-08-04,2021-08-05,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,7577,voted unanimously to maintain Bank Rate at 0.1%,2021-08,True
+2021-09,2021-09-22,2021-09-23,hold,0.0,0.1,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,8720,voted unanimously to maintain Bank Rate at 0.1%,2021-09,True
+2021-11,2021-11-02,2021-11-04,hold,0.0,0.1,7,2,2,True,2,7,0,2,0,2,3.33,2x+15bp,pdf,9347,voted by a majority of 7-2 to maintain Bank Rate at 0.1%,2021-11,True
+2021-12,2021-12-15,2021-12-16,hike,15.0,0.25,8,1,1,True,8,1,0,0,1,-1,-1.67,1x+0bp,pdf,8048,"voted by a majority of 8-1 to increase Bank Rate by 0.15 percentage points, to 0.25%",2021-12,True
+2022-02,2022-02-02,2022-02-03,hike,25.0,0.5,5,4,4,True,9,0,0,4,0,4,11.11,4x+50bp,pdf,8968,"voted by a majority of 5-4 to increase Bank Rate by 0.25 percentage points, to 0.5%",2022-02,True
+2022-03,2022-03-16,2022-03-17,hike,25.0,0.75,8,1,1,True,8,1,0,0,1,-1,-2.78,1x+0bp,pdf,7147,"voted by a majority of 8-1 to increase Bank Rate by 0.25 percentage points, to 0.75%",2022-03,True
+2022-05,2022-05-04,2022-05-05,hike,25.0,1.0,6,3,3,True,9,0,0,3,0,3,8.33,3x+50bp,pdf,8345,"voted by a majority of 6-3 to increase Bank Rate by 0.25 percentage points, to 1%",2022-05,True
+2022-06,2022-06-15,2022-06-16,hike,25.0,1.25,6,3,3,True,9,0,0,3,0,3,8.33,3x+50bp,pdf,5526,"voted by a majority of 6-3 to increase Bank Rate by 0.25 percentage points, to 1.25%",2022-06,True
+2022-08,2022-08-03,2022-08-04,hike,50.0,1.75,8,1,1,True,9,0,0,0,1,-1,-2.78,1x+25bp,pdf,6631,"voted by a majority of 8-1 to increase Bank Rate by 0.5 percentage points, to 1.75%",2022-08,True
+2022-09,2022-09-21,2022-09-22,hike,50.0,2.25,5,4,4,True,9,0,0,3,1,2,5.56,3x+75bp; 1x+25bp,pdf,6075,"voted to increase Bank Rate by 0.5 percentage points, to 2.25%",2022-09,True
+2022-11,2022-11-02,2022-11-03,hike,75.0,3.0,7,2,2,True,9,0,0,0,2,-2,-8.33,1x+50bp; 1x+25bp,pdf,6505,"voted by a majority of 7-2 to increase Bank Rate by 0.75 percentage points, to 3%",2022-11,True
+2022-12,2022-12-14,2022-12-15,hike,50.0,3.5,6,3,3,True,7,2,0,1,2,-1,-8.33,2x+0bp; 1x+75bp,pdf,6406,"voted by a majority of 6-3 to increase Bank Rate by 0.5 percentage points, to 3.5%",2022-12,True
+2023-02,2023-02-01,2023-02-02,hike,50.0,4.0,7,2,2,True,7,2,0,0,2,-2,-11.11,2x+0bp,pdf,4910,"voted by a majority of 7-2 to increase Bank Rate by 0.5 percentage points, to 4%",2023-02,True
+2023-03,2023-03-22,2023-03-23,hike,25.0,4.25,7,2,2,True,7,2,0,0,2,-2,-5.56,2x+0bp,pdf,6211,"voted by a majority of 7-2 to increase Bank Rate by 0.25 percentage points, to 4.25%",2023-03,True
+2023-05,2023-05-10,2023-05-11,hike,25.0,4.5,7,2,2,True,7,2,0,0,2,-2,-5.56,2x+0bp,pdf,3303,"voted by a majority of 7-2 to increase Bank Rate by 0.25 percentage points, to 4.5%",2023-05,True
+2023-06,2023-06-21,2023-06-22,hike,50.0,5.0,7,2,2,True,7,2,0,0,2,-2,-11.11,2x+0bp,pdf,4698,"voted by a majority of 7-2 to increase Bank Rate by 0.5 percentage points, to 5%",2023-06,True
+2023-08,2023-08-02,2023-08-03,hike,25.0,5.25,6,3,3,True,8,1,0,2,1,1,2.78,2x+50bp; 1x+0bp,pdf,3301,"voted by a majority of 6-3 to increase Bank Rate by 0.25 percentage points, to 5.25%",2023-08,True
+2023-09,2023-09-20,2023-09-21,hold,0.0,5.25,5,4,4,True,4,5,0,4,0,4,11.11,4x+25bp,pdf,6103,voted by a majority of 5-4 to maintain Bank Rate at 5.25%,2023-09,True
+2023-11,2023-11-01,2023-11-02,hold,0.0,5.25,6,3,3,True,3,6,0,3,0,3,8.33,3x+25bp,pdf,3197,voted by a majority of 6-3 to maintain Bank Rate at 5.25%,2023-11,True
+2023-12,2023-12-13,2023-12-14,hold,0.0,5.25,6,3,3,True,3,6,0,3,0,3,8.33,3x+25bp,pdf,4801,voted by a majority of 6-3 to maintain Bank Rate at 5.25%,2023-12,True
+2024-02,2024-01-31,2024-02-01,hold,0.0,5.25,6,3,3,True,2,6,1,2,1,1,2.78,2x+25bp; 1x-25bp,pdf,2859,voted by a majority of 6-3 to maintain Bank Rate at 5.25%,2024-02,True
+2024-03,2024-03-20,2024-03-21,hold,0.0,5.25,8,1,1,True,0,8,1,0,1,-1,-2.78,1x-25bp,pdf,4462,voted by a majority of 8-1 to maintain Bank Rate at 5.25%,2024-03,True
+2024-05,2024-05-08,2024-05-09,hold,0.0,5.25,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,2809,voted by a majority of 7-2 to maintain Bank Rate at 5.25%,2024-05,True
+2024-06,2024-06-19,2024-06-20,hold,0.0,5.25,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,5350,voted by a majority of 7-2 to maintain Bank Rate at 5.25%,2024-06,True
+2024-08,2024-07-31,2024-08-01,cut,-25.0,5.0,5,4,4,True,0,4,5,4,0,4,11.11,4x+0bp,pdf,2461,"voted by a majority of 5-4 to reduce Bank Rate by 0.25 percentage points, to 5%",2024-08,True
+2024-09,2024-09-18,2024-09-19,hold,0.0,5.0,8,1,1,True,0,8,1,0,1,-1,-2.78,1x-25bp,pdf,4533,voted by a majority of 8-1 to maintain Bank Rate at 5%,2024-09,True
+2024-11,2024-11-06,2024-11-07,cut,-25.0,4.75,8,1,1,True,0,1,8,1,0,1,2.78,1x+0bp,pdf,2271,"voted by a majority of 8-1 to reduce Bank Rate by 0.25 percentage points, to 4.75%",2024-11,True
+2024-12,2024-12-18,2024-12-19,hold,0.0,4.75,6,3,3,True,0,6,3,0,3,-3,-8.33,3x-25bp,pdf,4129,voted by a majority of 6-3 to maintain Bank Rate at 4.75%,2024-12,True
+2025-02,2025-02-05,2025-02-06,cut,-25.0,4.5,7,2,2,True,0,0,9,0,2,-2,-5.56,2x-50bp,pdf,2633,"voted by a majority of 7-2 to reduce Bank Rate by 0.25 percentage points, to 4.5%",2025-02,True
+2025-03,2025-03-19,2025-03-20,hold,0.0,4.5,8,1,1,True,0,8,1,0,1,-1,-2.78,1x-25bp,pdf,5106,voted by a majority of 8-1 to maintain Bank Rate at 4.5%,2025-03,True
+2025-05,2025-05-07,2025-05-08,cut,-25.0,4.25,5,4,4,True,0,2,7,2,2,0,0.0,2x-50bp; 2x+0bp,pdf,2803,"voted by a majority of 5-4 to reduce Bank Rate by 0.25 percentage points, to 4.25%",2025-05,True
+2025-06,2025-06-18,2025-06-19,hold,0.0,4.25,6,3,3,True,0,6,3,0,3,-3,-8.33,3x-25bp,pdf,4652,voted by a majority of 6-3 to maintain Bank Rate at 4.25%,2025-06,True
+2025-08,2025-08-06,2025-08-07,cut,-25.0,4.0,5,4,4,True,0,4,5,4,0,4,11.11,4x+0bp,pdf,2416,"voted by a majority of 5-4 to reduce Bank Rate by 0.25 percentage points, to 4%",2025-08,True
+2025-09,2025-09-17,2025-09-18,hold,0.0,4.0,7,2,2,True,0,7,2,0,2,-2,-5.56,2x-25bp,pdf,4302,voted by a majority of 7-2 to maintain Bank Rate at 4%,2025-09,True
+2025-11,2025-11-05,2025-11-06,hold,0.0,4.0,5,4,4,True,0,5,4,0,4,-4,-11.11,4x-25bp,pdf,3294,voted by a majority of 5-4 to maintain Bank Rate at 4%,2025-11,True
+2025-12,2025-12-17,2025-12-18,cut,-25.0,3.75,5,4,4,True,0,4,5,4,0,4,11.11,4x+0bp,pdf,4517,"voted by a majority of 5-4 to reduce Bank Rate by 0.25 percentage points, to 3.75%",2025-12,True
+2026-02,2026-02-04,2026-02-05,hold,0.0,3.75,5,4,4,True,0,5,4,0,4,-4,-11.11,4x-25bp,pdf,3561,voted by a majority of 5-4 to maintain Bank Rate at 3.75%,2026-02,True
+2026-03,2026-03-18,2026-03-19,hold,0.0,3.75,9,0,0,True,0,9,0,0,0,0,0.0,,pdf,4419,voted unanimously to maintain Bank Rate at 3.75%,2026-03,True
+2026-04,2026-04-29,2026-04-30,hold,0.0,3.75,8,1,1,True,1,8,0,1,0,1,2.78,1x+25bp,pdf,3555,voted by a majority of 8-1 to maintain Bank Rate at 3.75%,2026-04,True
+2026-06,2026-06-17,2026-06-18,hold,0.0,3.75,7,2,2,True,2,7,0,2,0,2,5.56,2x+25bp,pdf,5596,voted by a majority of 7-2 to maintain Bank Rate at 3.75%,2026-06,True
+2026-07,2026-07-29,2026-07-30,hold,0.0,3.75,6,3,3,True,3,6,0,3,0,3,8.33,3x+25bp,pdf,3715,voted by a majority of 6-3 to maintain Bank Rate at 3.75%,2026-07,True
+2026-09,2026-09-16,2026-09-17,hold,0.0,3.75,6,3,3,True,3,6,0,3,0,3,8.33,3x+25bp,pdf,7332,voted by a majority of 6-3 to maintain Bank Rate at 3.75%,2026-09,True
+2026-11,2026-11-04,2026-11-05,hike,25.0,4.0,8,1,1,True,9,0,0,1,0,1,2.78,1x+50bp,pdf,4312,"voted by a majority of 8-1 to increase Bank Rate by 0.25 percentage points, to 4%",2026-11,True
