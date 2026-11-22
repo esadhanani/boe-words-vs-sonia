@@ -1,6 +1,6 @@
 # Results: BoE words vs SONIA pricing
 
-_Generated 2026-11-21 by `src/analyse.py` from cached BoE downloads in `data/raw/`._
+_Generated 2026-11-22 by `src/analyse.py` from cached BoE downloads in `data/raw/`._
 
 ## Data
 
@@ -23,6 +23,10 @@ _Generated 2026-11-21 by `src/analyse.py` from cached BoE downloads in `data/raw
 | Benchmark: d1y OIS on change in net hawkish dissent | coef = +0.37 bp per dissenter, t = 1.06 (HC1 t = 0.82), R^2 = 0.016, n = 72 |
 
 **Reading.** The lexicon score tracks the vote split (r = 0.31 on levels). The words-to-pricing link on announcement day is weak and not significant at 5%: R^2 = 0.029 for 1y OIS. A one-SD change in the score (5.0 points) maps to about +1.3bp in 1y OIS. Most of the day's move is driven by things this score does not capture: the decision versus expectations, the vote split versus expectations, the MPR projections, and the press conference.
+
+## Does one meeting drive the result?
+
+Number of single-meeting omissions that reversed the sign: 1 of 71. The largest change came from omitting 2026-03-19: the slope went from +0.27 to -0.19 bp per tone-score point. This measures sensitivity to individual meetings. The full-sample estimate above retains every eligible observation.
 
 ## Divergences
 

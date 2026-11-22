@@ -88,6 +88,20 @@ def main():
     res["corr_changes"] = {"pearson": pr[0], "p": pr[1], "n": len(dv)}
 
     res["reg_1y"] = ols("d_ois_1y_bp", ["d_score"], df)
+    # Hold the observed changes fixed and omit one regression observation at a time.
+    sample = df.dropna(subset=["d_score", "d_ois_1y_bp"])
+    slopes = {
+        row.announce_date: ols("d_ois_1y_bp", ["d_score"], sample.drop(index=index))["coef"]
+        for index, row in sample.iterrows()
+    }
+    full_slope = res["reg_1y"]["coef"]
+    influential_date = max(slopes, key=lambda date: abs(slopes[date] - full_slope))
+    res["reg_1y_leave_one_out"] = {
+        "most_influential_date": influential_date,
+        "slope_without_meeting": slopes[influential_date],
+        "sign_reversals": sum(int(slope * full_slope < 0) for slope in slopes.values()),
+        "n_refits": len(slopes),
+    }
     res["reg_2y"] = ols("d_ois_2y_bp", ["d_score"], df)
     res["reg_6m"] = ols("d_ois_6m_bp", ["d_score"], df)
     ex = df[~df.key.str.startswith("2020-03")]
@@ -228,6 +242,13 @@ def write_results(df, div, res, ois):
       f"{r1['coef'] * res['div']['sd_dscore']:+.1f}bp in 1y OIS. Most of the day's move is driven by things this "
       "score does not capture: the decision versus expectations, the vote split versus expectations, the MPR "
       "projections, and the press conference.\n")
+    influence = res["reg_1y_leave_one_out"]
+    A("## Does one meeting drive the result?\n")
+    A(f"Number of single-meeting omissions that reversed the sign: {influence['sign_reversals']} of {influence['n_refits']}. "
+      f"The largest change came from omitting "
+      f"{influence['most_influential_date']}: the slope went from {r1['coef']:+.2f} to "
+      f"{influence['slope_without_meeting']:+.2f} bp per tone-score point. This measures sensitivity "
+      "to individual meetings. The full-sample estimate above retains every eligible observation.\n")
     A("## Divergences\n")
     A(f"Rule: the hawk score moved by at least {DIV_SCORE_SD} SD ({res['div']['score_thr']:.2f} points) versus the prior "
       f"meeting, and 1y OIS moved at least {DIV_OIS_BP:.0f}bp the opposite way (close before to close after). "

@@ -1,6 +1,6 @@
-**What it shows:** a transparent hawk/dove score for every Bank of England MPC decision from Feb 2018 to Nov 2026 (73 decisions), built from the Monetary Policy Summary and Minutes.
-**It is validated** against the recorded vote split, then set against same-day moves in 6m, 1y and 2y SONIA OIS from the BoE yield-curve files.
-**It flags meetings where the words and pricing disagreed.** The words scored hawkish but 1y OIS fell, or the reverse. It also reports where the latest meeting (5 Nov 2026) sits in history.
+# Bank of England communication and SONIA pricing
+
+Do changes in the tone of MPC minutes line up with the market move on decision day? This study covers 73 Bank of England decisions from February 2018 to November 2026. It scores 72 sets of minutes after removing vote language. One emergency meeting had only a short summary. The 71 changes between scored meetings form the pricing sample.
 
 ![chart](chart.png)
 
@@ -15,6 +15,8 @@
 | Latest (Nov 2026, +25bp to 4%, vote 8-1) | score +9.27, 97th percentile, 3rd most hawkish since 2018 |
 
 **How to read it.** The words carry real information about the Committee's stance: they correlate with the votes. But the change in tone on its own explains about 3% of the day's 1y OIS move. Four of the five flagged meetings have the same pattern: the minutes got more hawkish while 1y OIS fell. That includes a hike that softened its guidance (Mar-22, vote 8-1) and the first cut of the cycle (Aug-24, vote 5-4). My hypothesis, which I have not tested: the market traded the decision and its conditional guidance, while the phrase count was still dominated by inflation-persistence language.
+
+**Sensitivity to one meeting.** I refit the one-year OIS regression 71 times, omitting one meeting at a time. Only omitting 19 March 2026 reversed the estimated slope, from +0.27 to −0.19 basis points per score point. The daily data give little reason to trade a change in the phrase count on its own.
 
 ## Method
 
